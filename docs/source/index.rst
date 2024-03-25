@@ -1,10 +1,14 @@
-Welcome to Lumache's documentation!
+Welcome to FreeEval's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**FreeEval: A Modular Framework for Trustworthy and Efficient Evaluation of Large Language Models**
+
+FreeEval is a modular and extensible framework for conducting trustworthy and efficient automatic evaluations of large language models (LLMs). 
+The toolkit unifies various evaluation approaches, including dataset-based evaluators, reference-based metrics, and LLM-based evaluators, within a transparent and reproducible framework. 
+FreeEval incorporates meta-evaluation techniques such as human evaluation and data contamination detection to enhance the reliability of evaluation results. 
+The framework is built on a high-performance infrastructure that enables efficient large-scale evaluations across multi-node, multi-GPU clusters, supporting both open-source and proprietary LLMs. 
+With its focus on modularity, trustworthiness, and efficiency, FreeEval aims to provide researchers with a standardized and comprehensive platform for gaining deeper insights into the capabilities and limitations of LLMs.
+
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
@@ -13,10 +17,11 @@ how to :ref:`installation` the project.
 
    This project is under active development.
 
-Contents
---------
-
 .. toctree::
+   :caption: Contents:
 
+   installation
    usage
-   api
+   new-algorithm
+   new-dataset
+   new-step
